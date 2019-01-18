@@ -8,12 +8,28 @@ body {
 /* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
 /* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
 .size-div {
-	height: calc(100%/3);
+	height: 25%;
 	width: 100%;
+}
+.mid-div{
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+.square{
+	height: 100%;
+	width: calc(100%/3);
+	display: flex;
+		align-items: center;
+	justify-content: center;
 }
 
 /* When possible, organize CSS classes in alphabetical order */
-
+.center-content {
+	align-items: center;
+	justify-content: center;	
+	display: flex;
+}
 .cyan {
 	background-color: #00FFFF;
 }
