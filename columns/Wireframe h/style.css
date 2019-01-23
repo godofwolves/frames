@@ -25,6 +25,7 @@ body {
 .image-holder{
 	align-items: center;
 	justify-content: center;
+	display: flex;
 }
 .square-div {
 	width: 50%;
@@ -40,7 +41,10 @@ body {
 	width: 50%;
 	height: 100%
 }
-
+.size {
+	max-height: 100%;
+	max-width: 100%;
+}
 /* When possible, organize CSS classes in alphabetical order */
 .gold {
 	background-color: #C5B358;
