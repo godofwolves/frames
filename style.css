@@ -1,7 +1,19 @@
 body {
 	background-color: #303030;
+	display: block;
+	}
+.a1 {
+	height: 50%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;	
+	display: flex;
 }
 
 h1 {
-	font-size: 75pt;
+	font-size: 50%;
+}
+
+.opaque {
+	opacity: 0.5;
 }
